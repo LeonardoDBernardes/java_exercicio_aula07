@@ -1,0 +1,20 @@
+2023.03.08 17:38:58 INFO  Started: Metals version 0.11.11 in workspace 'D:\GitHub\java_exercicio_aula07' for client Visual Studio Code 1.76.0.
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+SLF4J: Class path contains SLF4J bindings targeting slf4j-api versions 1.7.x or earlier.
+SLF4J: Ignoring binding found at [jar:file:/C:/Users/leodb/AppData/Local/Coursier/cache/v1/https/repo1.maven.org/maven2/com/outr/scribe-slf4j_2.13/3.11.0/scribe-slf4j_2.13-3.11.0.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See https://www.slf4j.org/codes.html#ignoredBindings for an explanation.
+2023.03.08 17:39:00 INFO  time: initialize in 1.36s
+2023.03.08 17:39:04 WARN  Build server is not auto-connectable.
+2023.03.08 17:39:04 WARN  no build tool detected in workspace 'D:\GitHub\java_exercicio_aula07'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2023.03.08 17:39:04 WARN  no build target for: D:\GitHub\java_exercicio_aula07\java_exercico_aula07\src\App.java
+2023.03.08 17:39:05 WARN  Running javac-semanticdb failed for file:///D:/GitHub/java_exercicio_aula07/java_exercico_aula07/src/App.java. Output:
+D:\GitHub\java_exercicio_aula07\java_exercico_aula07\src\App.java:123: error: reached end of file while parsing
+        int digito2 = calculaDigitoVerificador(cpf.substring(0, 9) + digito1, 11);
+                                                                                  ^
+1 error
+2023.03.08 17:39:05 INFO  time: code lens generation in 1.37s
+2023.03.08 17:49:59 INFO  Shutting down server
+2023.03.08 17:49:59 INFO  shutting down Metals
+2023.03.08 17:49:59 INFO  Exiting server
